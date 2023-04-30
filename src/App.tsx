@@ -3,6 +3,7 @@ import { HelmetProvider } from 'react-helmet-async';
 import AppRouter from '@routes';
 import Loading from '@components/atoms/Loading';
 import './styles/index.scss';
+import ConfigAntd from '@configs/Antd';
 
 // ------------------------------------------
 
@@ -14,7 +15,9 @@ const App = () => (
 
 const AppWrapper: React.FC = () => (
   <HelmetProvider>
-    <App />
+    <ConfigAntd>
+      <App />
+    </ConfigAntd>
   </HelmetProvider>
 );
 

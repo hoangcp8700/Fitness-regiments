@@ -21,7 +21,7 @@ const preview: Preview = {
   },
   decorators: [
     (Story) => (
-      <div style={{ margin: '3em' }}>
+      <div style={{ padding: '16px' }}>
         <Story />
       </div>
     ),

@@ -7,4 +7,14 @@
     outline: none !important;
     appearance: none !important;
   }
+  h1,
+  h2 {
+    font-weight: 700;
+  }
+  h1 {
+    @apply text-3xl;
+  }
+  h2 {
+    @apply text-lg sm:text-xl md:text-2xl;
+  }
 }

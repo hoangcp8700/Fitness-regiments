@@ -1,3 +1,5 @@
+import date from './date';
+
 export const CONSTANTS = {
   DOMAIN_CLIENT: 'http://localhost:3000',
   VIDEO_DUMMY: 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
@@ -14,4 +16,5 @@ export const CONSTANTS = {
     refetchOnWindowFocus: false,
     refetchOnReconnect: false,
   },
+  DATE: date,
 };

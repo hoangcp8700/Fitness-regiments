@@ -37,6 +37,7 @@ export enum BaseColors {
   grey17 = '#B8B8B8',
   momentum = '#404040',
   gray = '#F3F4F5',
+  white = '#FFFFFF',
 }
 
 export enum BaseShadow {

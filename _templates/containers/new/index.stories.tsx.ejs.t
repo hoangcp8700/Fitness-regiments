@@ -1,5 +1,5 @@
 ---
-to: src/containers/<%= h.inflection.capitalize(name) %>/index.stories.tsx
+to: src/containers/<%= h.inflection.camelize(name) %>/index.stories.tsx
 ---
 
 import type { Meta, StoryObj } from '@storybook/react';

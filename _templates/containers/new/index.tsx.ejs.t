@@ -1,12 +1,12 @@
 ---
-to: src/containers/<%= h.changeCase.pascal(name) %>/index.tsx
+to: src/containers/<%= h.inflection.camelize(name) %>/index.tsx
 ---
 import React from 'react';
 
-interface <%= h.changeCase.pascal(name) %>ContainerProps {
+interface <%= h.inflection.camelize(name) %>ContainerProps {
   children?: React.ReactNode;
 }
 
-const <%= h.changeCase.pascal(name) %>Container: React.FC<<%= h.changeCase.pascal(name) %>ContainerProps> = () => <div>Container <%= h.changeCase.pascal(name) %></div>;
+const <%= h.inflection.camelize(name) %>Container: React.FC<<%= h.inflection.camelize(name) %>ContainerProps> = () => <div>Container <%= h.inflection.camelize(name) %></div>;
 
-export default <%= h.changeCase.pascal(name) %>Container;
+export default <%= h.inflection.camelize(name) %>Container;

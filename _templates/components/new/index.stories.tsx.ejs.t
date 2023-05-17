@@ -1,5 +1,5 @@
 ---
-to: src/components/<%= level %>/<%= h.inflection.capitalize(name) %>/index.stories.tsx
+to: src/components/<%= level %>/<%= h.inflection.camelize(name) %>/index.stories.tsx
 ---
 
 import type { Meta, StoryFn } from '@storybook/react';

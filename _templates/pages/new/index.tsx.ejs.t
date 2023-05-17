@@ -1,5 +1,5 @@
 ---
-to: src/pages/<%= h.inflection.capitalize(name) %>/index.tsx
+to: src/pages/<%= h.inflection.camelize(name) %>/index.tsx
 ---
 import React from 'react';
 import Helmet from '@components/common/Helmet';

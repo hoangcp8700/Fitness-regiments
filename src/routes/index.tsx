@@ -3,7 +3,7 @@ import { CONSTANT_ROUTE } from '@utils/constants';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Loading from '@components/atoms/Loading';
 
-import { Category, Error, Home, LayoutDefault } from './PageLazy';
+import { Category, Error, Home, LayoutApp } from './PageLazy';
 
 const AppRouter = () => {
   const router = useMemo(
@@ -13,7 +13,7 @@ const AppRouter = () => {
           loader: () => null,
           children: [
             {
-              element: <LayoutDefault />,
+              element: <LayoutApp />,
               children: [
                 {
                   path: CONSTANT_ROUTE.ROOT,

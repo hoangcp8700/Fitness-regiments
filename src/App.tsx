@@ -2,7 +2,7 @@ import React, { Suspense } from 'react';
 import { HelmetProvider } from 'react-helmet-async';
 import AppRouter from '@routes';
 import Loading from '@components/atoms/Loading';
-import './styles/index.scss';
+import './styles/index.css';
 import ConfigAntd from '@configs/Antd';
 
 // ------------------------------------------

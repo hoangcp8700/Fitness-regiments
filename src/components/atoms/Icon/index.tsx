@@ -1,10 +1,15 @@
 import Icon from '@ant-design/icons';
 import { CustomIconComponentProps } from '@ant-design/icons/lib/components/Icon';
 import React from 'react';
-import * as Icons from '@ant-design/icons';
+import * as IconsApp from '@ant-design/icons';
 import styled from 'styled-components';
 
-export { Icons };
+import * as IconSvg from './components';
+
+export const Icons = {
+  ...IconsApp,
+  ...IconSvg,
+};
 
 interface IconAppProps {
   component:

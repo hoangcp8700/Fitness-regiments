@@ -4,7 +4,8 @@ export const CONSTANT_ROUTE = {
   CATEGORY: '/categories',
 
   PROFILE: '/profile',
-  FORUM: '/forum',
+  FORUMS: '/forums',
+  COLLECTIONS: '/collections',
   REGIMENTS: '/regiments',
   CHATS: '/chats',
   MESSAGES: '/messages',

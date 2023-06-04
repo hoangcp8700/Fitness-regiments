@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react';
 import { CONSTANT_ROUTE } from '@utils/constants';
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { Navigate, RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Loading from '@components/atoms/Loading';
 
 import { Category, Error, Home, LayoutApp } from './PageLazy';
@@ -17,6 +17,22 @@ const AppRouter = () => {
               children: [
                 {
                   path: CONSTANT_ROUTE.ROOT,
+                  element: <Navigate to={CONSTANT_ROUTE.HOME} replace />,
+                },
+                {
+                  path: CONSTANT_ROUTE.HOME,
+                  element: <Home />,
+                },
+                {
+                  path: CONSTANT_ROUTE.REGIMENTS,
+                  element: <Home />,
+                },
+                {
+                  path: CONSTANT_ROUTE.FORUMS,
+                  element: <Home />,
+                },
+                {
+                  path: CONSTANT_ROUTE.COLLECTIONS,
                   element: <Home />,
                 },
                 {

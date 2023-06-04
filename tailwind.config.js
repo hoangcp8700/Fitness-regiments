@@ -21,6 +21,9 @@ export default {
         austin: ['Austin', ...fontFamily.sans],
       },
       screens,
+      colors: {
+        danger: '#FF6600',
+      },
       backgroundImage: {
         'loading-ball': "url('src/assets/icons/ic_loading_ball.svg')",
         skeleton:

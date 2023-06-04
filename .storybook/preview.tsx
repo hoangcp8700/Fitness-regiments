@@ -3,7 +3,7 @@ import { viewports } from './utils/viewports';
 
 import React from 'react';
 
-import '../src/styles/index.scss';
+import '../src/styles/index.css';
 
 const preview: Preview = {
   parameters: {

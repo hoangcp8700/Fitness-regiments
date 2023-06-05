@@ -1,4 +1,5 @@
 import Avatar from '@components/atoms/Avatar';
+import DarkModeToggle from '@components/atoms/DarkModeToggle';
 import IconApp, { Icons } from '@components/atoms/Icon';
 import MessageNotification from '@components/templates/HeaderMessage';
 import HeaderNotification from '@components/templates/HeaderNotification';
@@ -35,6 +36,7 @@ const ProfileMenu: React.FC<ProfileMenuProps> = () => {
     <div className='flex items-center gap-x-6'>
       <MessageNotification />
       <HeaderNotification />
+      <DarkModeToggle />
       <Dropdown menu={{ items }} placement='bottomLeft' arrow={{ pointAtCenter: true }}>
         <Avatar size={48} alt='Hoang Cong Phan' rootClassName='cursor-pointer' />
       </Dropdown>

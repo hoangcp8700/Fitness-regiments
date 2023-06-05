@@ -19,7 +19,7 @@ const Sidebar: React.FC<SidebarProps> = () => {
           <Link key={el.label} to={el.path}>
             <div
               className={clsx(
-                'flex flex-col items-center gap-y-2 py-2 px-4 transition-all cursor-pointer hover:bg-gray-100 hover:opacity-100',
+                'flex flex-col items-center gap-y-2 py-2 px-4 ml-2 transition-all cursor-pointer rounded-l-xl hover:bg-gray-100 hover:opacity-100',
                 active ? 'bg-gray-200' : 'opacity-50',
               )}
             >

@@ -19,9 +19,10 @@ interface IconAppProps {
   fill?: string;
   hoverFill?: string;
   size?: number;
+  className?: string;
 }
-const IconApp: React.FC<IconAppProps> = ({ component, fill, hoverFill, size = 24 }) => (
-  <StyledIcon component={component} fill={fill} hoverFill={hoverFill} size={size} />
+const IconApp: React.FC<IconAppProps> = ({ component, fill, hoverFill, size = 24, className }) => (
+  <StyledIcon component={component} fill={fill} hoverFill={hoverFill} size={size} className={className} />
 );
 
 const StyledIcon = styled(Icon)<IconAppProps>`

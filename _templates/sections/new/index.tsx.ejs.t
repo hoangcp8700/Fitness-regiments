@@ -1,5 +1,5 @@
 ---
-to: src/containers/<%= h.inflection.camelize(name) %>/index.tsx
+to: src/sections/<%= h.inflection.camelize(name) %>/index.tsx
 ---
 import React from 'react';
 

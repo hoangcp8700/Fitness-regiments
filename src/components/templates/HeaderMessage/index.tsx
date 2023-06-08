@@ -11,7 +11,7 @@ const HeaderMessageMain: React.FC = () => <div>message list</div>;
 const HeaderMessage: React.FC<HeaderMessageProps> = () => (
   <Popover content={<HeaderMessageMain />}>
     <Badge dot>
-      <IconApp component={Icons.MessageOutlined} />
+      <IconApp component={Icons.MessageOutlined} className='text-stale-800 dark:text-white' />
     </Badge>
   </Popover>
 );

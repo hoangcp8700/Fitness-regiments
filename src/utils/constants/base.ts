@@ -8,6 +8,9 @@ export const CONSTANTS = {
     AUTHENTICATE: 'AUTHENTICATE',
     THEME: 'THEME',
   },
+  THEME_MODE_OPTIONS: {
+    DARK: 'dark',
+  },
   ACCEPT_FILE_IMAGE: ['image/png', 'image/jpeg'],
   LANGUAGE_LIST: ['EN', 'VI'],
   DEFAULT_QUERY_OPTION: {

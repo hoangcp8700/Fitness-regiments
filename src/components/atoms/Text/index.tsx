@@ -6,14 +6,20 @@ interface TextProps {
   content?: string;
   children?: React.ReactNode;
   className?: string;
+  isDarkMode?: boolean;
 }
-const Text: React.FC<TextProps> = ({ type = 'p', children, content, className }) => {
+const Text: React.FC<TextProps> = ({ type = 'p', isDarkMode = true, children, content, className }) => {
   const Element = type;
 
   return content ? (
-    <Element className={clsx('duration-300 ease-in-out', className)} dangerouslySetInnerHTML={{ __html: content }} />
+    <Element
+      className={clsx('duration-300 ease-in-out', isDarkMode && 'dark:text-white', className)}
+      dangerouslySetInnerHTML={{ __html: content }}
+    />
   ) : (
-    <Element className={clsx('duration-300 ease-in-out', className)}>{children}</Element>
+    <Element className={clsx('duration-300 ease-in-out', isDarkMode && 'dark:text-white', className)}>
+      {children}
+    </Element>
   );
 };
 

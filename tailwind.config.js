@@ -12,7 +12,13 @@ const screens = {
 };
 
 export default {
-  content: ['./src/*.{ts,tsx}', './src/components/**/*.{ts,tsx}', './src/containers/**/*.{ts,tsx}', './index.html'],
+  content: [
+    './src/*.{ts,tsx}',
+    './src/pages/**/*.{ts,tsx}',
+    './src/components/**/*.{ts,tsx}',
+    './src/sections/**/*.{ts,tsx}',
+    './index.html',
+  ],
   darkMode: 'class',
   theme: {
     extend: {

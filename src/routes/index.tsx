@@ -1,16 +1,15 @@
-import React, { useMemo } from 'react';
+import { useMemo } from 'react';
 import { CONSTANT_ROUTE } from '@utils/constants';
 import { Navigate, RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Loading from '@components/atoms/Loading';
 
-import { Category, Error, Home, LayoutApp } from './PageLazy';
+import { Category, Collections, Error, Forums, Home, LayoutApp, Regiments } from './PageLazy';
 
 const AppRouter = () => {
   const router = useMemo(
     () =>
       createBrowserRouter([
         {
-          loader: () => null,
           children: [
             {
               element: <LayoutApp />,
@@ -25,15 +24,15 @@ const AppRouter = () => {
                 },
                 {
                   path: CONSTANT_ROUTE.REGIMENTS,
-                  element: <Home />,
+                  element: <Regiments />,
                 },
                 {
                   path: CONSTANT_ROUTE.FORUMS,
-                  element: <Home />,
+                  element: <Forums />,
                 },
                 {
                   path: CONSTANT_ROUTE.COLLECTIONS,
-                  element: <Home />,
+                  element: <Collections />,
                 },
                 {
                   path: CONSTANT_ROUTE.CATEGORY,

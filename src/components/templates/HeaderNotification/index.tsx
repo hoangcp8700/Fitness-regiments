@@ -11,7 +11,7 @@ const HeaderNotificationMain: React.FC = () => <div>notification list</div>;
 const HeaderNotification: React.FC<HeaderNotificationProps> = () => (
   <Popover content={<HeaderNotificationMain />}>
     <Badge dot>
-      <IconApp component={Icons.NotificationBell} />
+      <IconApp component={Icons.NotificationBell} className='text-stale-800 dark:text-white' />
     </Badge>
   </Popover>
 );

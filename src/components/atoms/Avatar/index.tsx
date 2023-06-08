@@ -12,7 +12,7 @@ export const AvatarMain: React.FC<AvatarProps> = ({ children, src, alt, ...props
     <AvatarApp
       {...props}
       {...((!src || isError) && {
-        icon: <UserOutlined />,
+        icon: <UserOutlined className='dark:text-white' />,
       })}
       alt={alt}
       onError={() => {

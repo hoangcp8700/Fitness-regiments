@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { Button } from 'antd';
-import { WrapperMain } from '@components/common/Layout/LayoutApp';
 
 import reactLogo from '@/assets/images/react.svg';
 
@@ -8,15 +7,18 @@ const Home = () => {
   const [count, setCount] = useState(0);
 
   return (
-    <WrapperMain className='bg-red-500'>
-      <div className='wrapper-logo mb-10 rounded-full'>
+    <>
+      <div className='w-[100px] h-[100px] bg-red-500 dark:bg-black' />
+      <div className='wrapper-logo mb-10 rounded-full 0'>
         <a href='https://react.dev' target='_blank' rel='noreferrer'>
           <img src={reactLogo} className='logo react' alt='React logo' />
         </a>
-        <Button type='primary'>Button</Button>
+        <Button type='primary'>Button 123</Button>
       </div>
-      <h1 className='text-3xl font-bold text-red-500 underline text-center'>Vite + React</h1>
-      <div className='card bg-red-500'>
+      <div className='text-3xl font-bold  text-blue-500 dark:text-red-500 underline text-center bg-red-50'>
+        Vite11 + React
+      </div>
+      <div className='card bg-blue-500'>
         <button type='button' onClick={() => setCount((prev) => prev + 1)}>
           count is {count}
         </button>
@@ -24,7 +26,137 @@ const Home = () => {
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
       </div>
-    </WrapperMain>
+      <div className='w-[100px] h-[100px] bg-red-500 dark:bg-black' />
+      <div className='wrapper-logo mb-10 rounded-full 0'>
+        <a href='https://react.dev' target='_blank' rel='noreferrer'>
+          <img src={reactLogo} className='logo react' alt='React logo' />
+        </a>
+        <Button type='primary'>Button 123</Button>
+      </div>
+      <div className='text-3xl font-bold  text-blue-500 dark:text-red-500 underline text-center bg-red-50'>
+        Vite11 + React
+      </div>
+      <div className='card bg-blue-500'>
+        <button type='button' onClick={() => setCount((prev) => prev + 1)}>
+          count is {count}
+        </button>
+        <p>
+          Edit <code>src/App.tsx</code> and save to test HMR
+        </p>
+      </div>
+      <div className='w-[100px] h-[100px] bg-red-500 dark:bg-black' />
+      <div className='wrapper-logo mb-10 rounded-full 0'>
+        <a href='https://react.dev' target='_blank' rel='noreferrer'>
+          <img src={reactLogo} className='logo react' alt='React logo' />
+        </a>
+        <Button type='primary'>Button 123</Button>
+      </div>
+      <div className='text-3xl font-bold  text-blue-500 dark:text-red-500 underline text-center bg-red-50'>
+        Vite11 + React
+      </div>
+      <div className='card bg-blue-500'>
+        <button type='button' onClick={() => setCount((prev) => prev + 1)}>
+          count is {count}
+        </button>
+        <p>
+          Edit <code>src/App.tsx</code> and save to test HMR
+        </p>
+      </div>
+      <div className='w-[100px] h-[100px] bg-red-500 dark:bg-black' />
+      <div className='wrapper-logo mb-10 rounded-full 0'>
+        <a href='https://react.dev' target='_blank' rel='noreferrer'>
+          <img src={reactLogo} className='logo react' alt='React logo' />
+        </a>
+        <Button type='primary'>Button 123</Button>
+      </div>
+      <div className='text-3xl font-bold  text-blue-500 dark:text-red-500 underline text-center bg-red-50'>
+        Vite11 + React
+      </div>
+      <div className='card bg-blue-500'>
+        <button type='button' onClick={() => setCount((prev) => prev + 1)}>
+          count is {count}
+        </button>
+        <p>
+          Edit <code>src/App.tsx</code> and save to test HMR
+        </p>
+      </div>
+      <div className='w-[100px] h-[100px] bg-red-500 dark:bg-black' />
+      <div className='wrapper-logo mb-10 rounded-full 0'>
+        <a href='https://react.dev' target='_blank' rel='noreferrer'>
+          <img src={reactLogo} className='logo react' alt='React logo' />
+        </a>
+        <Button type='primary'>Button 123</Button>
+      </div>
+      <div className='text-3xl font-bold  text-blue-500 dark:text-red-500 underline text-center bg-red-50'>
+        Vite11 + React
+      </div>
+      <div className='card bg-blue-500'>
+        <button type='button' onClick={() => setCount((prev) => prev + 1)}>
+          count is {count}
+        </button>
+        <p>
+          Edit <code>src/App.tsx</code> and save to test HMR
+        </p>
+      </div>
+      <div className='w-[100px] h-[100px] bg-red-500 dark:bg-black' />
+      <div className='wrapper-logo mb-10 rounded-full 0'>
+        <a href='https://react.dev' target='_blank' rel='noreferrer'>
+          <img src={reactLogo} className='logo react' alt='React logo' />
+        </a>
+        <Button type='primary'>Button 123</Button>
+      </div>
+      <div className='text-3xl font-bold  text-blue-500 dark:text-red-500 underline text-center bg-red-50'>
+        Vite11 + React
+      </div>
+      <div className='card bg-blue-500'>
+        <button type='button' onClick={() => setCount((prev) => prev + 1)}>
+          count is {count}
+        </button>
+        <p>
+          Edit <code>src/App.tsx</code> and save to test HMR
+        </p>
+      </div>
+      <div className='w-[100px] h-[100px] bg-red-500 dark:bg-black' />
+      <div className='wrapper-logo mb-10 rounded-full 0'>
+        <a href='https://react.dev' target='_blank' rel='noreferrer'>
+          <img src={reactLogo} className='logo react' alt='React logo' />
+        </a>
+        <Button type='primary'>Button 123</Button>
+      </div>
+      <div className='text-3xl font-bold  text-blue-500 dark:text-red-500 underline text-center bg-red-50'>
+        Vite11 + React
+      </div>
+      <div className='w-[100px] h-[100px] bg-red-500 dark:bg-black' />
+      <div className='wrapper-logo mb-10 rounded-full 0'>
+        <a href='https://react.dev' target='_blank' rel='noreferrer'>
+          <img src={reactLogo} className='logo react' alt='React logo' />
+        </a>
+        <Button type='primary'>Button 123</Button>
+      </div>
+      <div className='text-3xl font-bold  text-blue-500 dark:text-red-500 underline text-center bg-red-50'>
+        Vite11 + React
+      </div>
+      <div className='w-[100px] h-[100px] bg-red-500 dark:bg-black' />
+      <div className='wrapper-logo mb-10 rounded-full 0'>
+        <a href='https://react.dev' target='_blank' rel='noreferrer'>
+          <img src={reactLogo} className='logo react' alt='React logo' />
+        </a>
+        <Button type='primary'>Button 123</Button>
+      </div>
+      <div className='text-3xl font-bold  text-blue-500 dark:text-red-500 underline text-center bg-red-50'>
+        Vite11 + React
+      </div>
+      <div className='w-[100px] h-[100px] bg-red-500 dark:bg-black' />
+      <div className='wrapper-logo mb-10 rounded-full 0'>
+        <a href='https://react.dev' target='_blank' rel='noreferrer'>
+          <img src={reactLogo} className='logo react' alt='React logo' />
+        </a>
+        <Button type='primary'>Button 123</Button>
+      </div>
+      <div className='text-3xl font-bold  text-blue-500 dark:text-red-500 underline text-center bg-red-50'>
+        Vite11 + React
+      </div>
+    </>
   );
 };
 

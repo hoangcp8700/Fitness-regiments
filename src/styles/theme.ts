@@ -48,7 +48,8 @@ export enum BaseShadow {
 
 export const headerHeight = 64;
 export const sidebar = 280;
-export const sidebarCollapsed = 100;
+export const sidebarCollapsed = 120;
+export const sidebarBottom = 70;
 
 export const breakpoint = {
   xs: 480,

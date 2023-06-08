@@ -29,7 +29,7 @@
     "prettier": "prettier --write src/**/*.{ts,tsx,css,json} --config ./.prettierrc",
     "gen:component": "hygen components new",
     "gen:page": "hygen pages new",
-    "gen:container": "hygen containers new",
+    "gen:sections": "hygen sections new",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "prepare": "husky install"
@@ -37,6 +37,7 @@
   "dependencies": {
     "@ant-design/icons": "^5.0.1",
     "antd": "^5.4.6",
+    "axios": "0.27.2",
     "clsx": "^1.2.1",
     "dayjs": "^1.11.7",
     "normalize.css": "^8.0.1",

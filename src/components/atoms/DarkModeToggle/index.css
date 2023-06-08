@@ -33,8 +33,7 @@
 }
 
 .toggle-checkbox:checked ~ .toggle-slot .toggle-button {
-  background-color: #485367;
-  box-shadow: inset 0px 0px 0px 6px white;
+  box-shadow: inset 0px 0px 0px 6px #ffbb52;
   transform: translate(-1px, -1px);
 }
 

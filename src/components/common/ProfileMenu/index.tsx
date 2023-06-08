@@ -13,19 +13,19 @@ const ProfileMenu: React.FC<ProfileMenuProps> = () => {
     () => [
       {
         key: 'profile',
-        icon: <IconApp component={Icons.UserOutlined} />,
+        icon: <IconApp component={Icons.UserOutlined} size={20} />,
         label: 'Profile',
         className: '!py-2 gap-x-3',
       },
       {
         key: 'change-password',
-        icon: <IconApp component={Icons.KeyOutlined} />,
+        icon: <IconApp component={Icons.KeyOutlined} size={20} />,
         label: 'Change Password',
         className: '!py-2 gap-x-3',
       },
       {
         key: 'logout',
-        icon: <IconApp component={Icons.LogoutOutlined} />,
+        icon: <IconApp component={Icons.LogoutOutlined} size={20} />,
         label: 'Logout',
         className: '!py-2 gap-x-3',
       },
@@ -34,11 +34,11 @@ const ProfileMenu: React.FC<ProfileMenuProps> = () => {
   );
   return (
     <div className='flex items-center gap-x-6'>
+      <DarkModeToggle />
       <MessageNotification />
       <HeaderNotification />
-      <DarkModeToggle />
       <Dropdown menu={{ items }} placement='bottomLeft' arrow={{ pointAtCenter: true }}>
-        <Avatar size={48} alt='Hoang Cong Phan' rootClassName='cursor-pointer' />
+        <Avatar size={40} alt='Hoang Cong Phan' rootClassName='cursor-pointer' />
       </Dropdown>
     </div>
   );

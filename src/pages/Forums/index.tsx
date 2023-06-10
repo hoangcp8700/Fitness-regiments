@@ -4,7 +4,7 @@ import Helmet from '@components/common/Helmet';
 const ForumsPage: React.FC = () => (
   <>
     <Helmet />
-    Page Forums
+    page forum
   </>
 );
 

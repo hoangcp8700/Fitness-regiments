@@ -17,12 +17,11 @@ interface IconAppProps {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     | React.ForwardRefExoticComponent<any>;
   fill?: string;
-  hoverFill?: string;
   size?: number;
   className?: string;
 }
-const IconApp: React.FC<IconAppProps> = ({ component, fill, hoverFill, size = 24, className }) => (
-  <StyledIcon component={component} fill={fill} hoverFill={hoverFill} size={size} className={className} />
+const IconApp: React.FC<IconAppProps> = ({ component, size = 24, className }) => (
+  <StyledIcon component={component} size={size} className={className} />
 );
 
 const StyledIcon = styled(Icon)<IconAppProps>`
@@ -32,11 +31,7 @@ const StyledIcon = styled(Icon)<IconAppProps>`
   }
   svg {
     transition: all 0.3s ease-in-out;
-    fill: ${({ fill }) => fill};
     font-size: ${({ size }) => `${size}px`};
-    &:hover {
-      fill: ${({ hoverFill }) => hoverFill};
-    }
   }
 `;
 export default IconApp;

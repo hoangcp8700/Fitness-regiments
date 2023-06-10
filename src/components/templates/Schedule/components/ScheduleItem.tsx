@@ -24,21 +24,21 @@ const ScheduleItem: React.FC<ScheduleItemProps> = ({ className, label, status, a
         ele = {
           color: BaseColors.light,
           bgColor: BaseColors.green,
-          icon: <IconApp component={Icons.CheckCircleOutlined} fill={BaseColors.white} />,
+          icon: <IconApp component={Icons.CheckCircleOutlined} className='bg-white' />,
         };
         break;
       case StatusSchedule.Progress:
         ele = {
           bgColor: BaseColors.blue,
           color: BaseColors.light,
-          icon: <IconApp component={Icons.FieldTimeOutlined} fill={BaseColors.white} />,
+          icon: <IconApp component={Icons.FieldTimeOutlined} className='bg-white' />,
         };
         break;
       case StatusSchedule.Close:
         ele = {
           bgColor: BaseColors.red2,
           color: BaseColors.light,
-          icon: <IconApp component={Icons.CloseCircleOutlined} fill={BaseColors.white} />,
+          icon: <IconApp component={Icons.CloseCircleOutlined} className='text-white' />,
         };
         break;
       default:

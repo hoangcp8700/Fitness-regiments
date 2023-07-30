@@ -1,4 +1,4 @@
-import configTheme from '@styles/theme';
+import configTheme from '@shared/styles/theme';
 import { ConfigProvider } from 'antd';
 import React from 'react';
 

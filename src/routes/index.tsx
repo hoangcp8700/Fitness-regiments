@@ -1,6 +1,7 @@
-import { CONSTANT_ROUTE } from '@utils/constants';
-import { Navigate, useRoutes } from 'react-router-dom';
 import { Suspense } from 'react';
+import { ELinks } from '@shared/constants';
+import { useRoutes } from 'react-router-dom';
+import { CONSTANT_ROUTE, CONSTANT_ROUTE } from '@utils/constants/routes';
 
 import { Category, Collections, Error, Forums, Home, LayoutApp, LayoutDefault, Regiments } from './PageLazy';
 
@@ -18,8 +19,17 @@ const AppRouter = () => {
           element: <LayoutMain />,
           children: [
             {
-              path: CONSTANT_ROUTE.ROOT,
-              element: <Navigate to={CONSTANT_ROUTE.HOME} replace />,
+              element: <LayoutDefault />,
+              children: [
+                {
+                  path: ELinks.ROOT,
+                  element: <Home />,
+                },
+                {
+                  path: ELinks.CATEGORY,
+                  element: <Category />,
+                },
+              ],
             },
             {
               path: CONSTANT_ROUTE.HOME,

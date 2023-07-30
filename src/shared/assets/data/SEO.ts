@@ -1,4 +1,4 @@
-import { CONSTANTS } from '@utils/constants';
+import { CONSTANTS } from '@shared/constants';
 
 export const favicons: Array<React.ComponentPropsWithoutRef<'link'>> = [
   {

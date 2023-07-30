@@ -2,7 +2,7 @@
 to: src/pages/<%= h.inflection.camelize(name) %>/index.tsx
 ---
 import React from 'react';
-import Helmet from '@components/common/Helmet';
+import Helmet from '@shared/components//common/Helmet';
 
 const <%= h.changeCase.pascal(name) %>Page: React.FC = () => (
   <>

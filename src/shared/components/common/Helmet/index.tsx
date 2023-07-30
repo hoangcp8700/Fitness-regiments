@@ -1,4 +1,4 @@
-import { defaultMeta, favicons } from '@assets/data/SEO';
+import { defaultMeta, favicons } from '@shared/assets/data/SEO';
 import { useLocation } from 'react-router-dom';
 import { Helmet as HelmetApp } from 'react-helmet-async';
 import React, { useMemo } from 'react';

@@ -1,6 +1,6 @@
-import useWindowSize from '@hooks/useWindowResize';
+import useWindowSize from '@shared/hooks/useWindowResize';
 import { useCallback } from 'react';
-import { breakpoint, BreakPointKeyType, BreakPointType } from 'src/styles/theme';
+import { breakpoint, BreakPointKeyType, BreakPointType } from '@shared/styles/theme';
 
 interface ValueWithBreakpointParams extends Partial<BreakPointType> {
   default?: number;

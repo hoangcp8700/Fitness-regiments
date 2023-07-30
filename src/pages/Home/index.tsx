@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { Button } from 'antd';
-
-import reactLogo from '@/assets/images/react.svg';
+import reactLogo from '@shared/assets/images/react.svg';
 
 const Home = () => {
   const [count, setCount] = useState(0);

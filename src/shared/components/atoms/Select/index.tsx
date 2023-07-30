@@ -1,8 +1,8 @@
 import { ConfigProvider, Select, SelectProps } from 'antd';
-import { BaseColors } from 'src/styles/theme';
+import { BaseColors } from '@shared/styles/theme';
 import { SelectToken } from 'antd/es/select/style';
 import styled from 'styled-components';
-import { useValueWithBreakpoint } from '@hooks/useStyles';
+import { useValueWithBreakpoint } from '@shared/hooks/useStyles';
 
 export interface AppSelectProps
   extends SelectProps,

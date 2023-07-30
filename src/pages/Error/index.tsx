@@ -1,5 +1,5 @@
 import React from 'react';
-import Helmet from '@components/common/Helmet';
+import Helmet from '@shared/components/common/Helmet';
 
 const ErrorPage: React.FC = () => (
   <>
